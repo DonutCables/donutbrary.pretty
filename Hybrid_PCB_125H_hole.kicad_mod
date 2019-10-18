@@ -1,4 +1,4 @@
-(module Keebio-Parts:Hybrid_PCB_125H (layer F.Cu) (tedit 5DA8FAA6)
+(module Hybrid_PCB_125H_hole (layer F.Cu) (tedit 5DA928D9)
   (fp_text reference CHERRY (at 0 3.175) (layer F.SilkS)
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
   )
@@ -21,12 +21,6 @@
   (fp_line (start 6.985 -6.985) (end 6.985 6.985) (layer Eco2.User) (width 0.1524))
   (fp_line (start 6.985 6.985) (end -6.985 6.985) (layer Eco2.User) (width 0.1524))
   (fp_line (start -6.985 6.985) (end -6.985 -6.985) (layer Eco2.User) (width 0.1524))
-  (fp_text user CHERRY (at 0 3.175) (layer F.SilkS)
-    (effects (font (size 1.27 1.524) (thickness 0.2032)))
-  )
-  (fp_text user MX (at 0 5.08) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.524) (thickness 0.2032)))
-  )
   (fp_line (start -11.78052 9.398) (end -11.78052 -9.398) (layer Dwgs.User) (width 0.1524))
   (fp_line (start 11.78052 9.398) (end -11.78052 9.398) (layer Dwgs.User) (width 0.1524))
   (fp_line (start 11.78052 -9.398) (end 11.78052 9.398) (layer Dwgs.User) (width 0.1524))
