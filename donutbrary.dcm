@@ -1,9 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP D21
-D Diode
-$ENDCMP
-#
 $CMP SW_Encoder
 D Rotary switch, 4-bit encoding
 K rotary hex
