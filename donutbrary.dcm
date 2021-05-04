@@ -32,12 +32,8 @@ $CMP Crystal_NoGND
 D Crystal - No Gnd Pins
 $ENDCMP
 #
-$CMP D12
-D Diode - 1 Anode 2 Cathode
-$ENDCMP
-#
-$CMP D21
-D Diode - 2 Anode 1 Cathode
+$CMP D
+D Diode
 $ENDCMP
 #
 $CMP Elite-Proton-C
