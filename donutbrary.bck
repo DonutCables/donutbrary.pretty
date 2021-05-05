@@ -52,7 +52,7 @@ $CMP GND
 D Ground Connection
 $ENDCMP
 #
-$CMP MX_LED
+$CMP MX
 D Pin 1 in Pin 2 out
 $ENDCMP
 #

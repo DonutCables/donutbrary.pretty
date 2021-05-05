@@ -56,7 +56,7 @@ $CMP MX
 D Pin 1 in Pin 2 out
 $ENDCMP
 #
-$CMP MX_LED_FLIP
+$CMP MX_FLIP
 D Pin 2 in Pin 1 out
 $ENDCMP
 #
