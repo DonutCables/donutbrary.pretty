@@ -76,6 +76,12 @@ $CMP RGB_Pad
 D 3 Pin RGB Pad Connection
 $ENDCMP
 #
+$CMP SW_Enc
+D Rotary switch, 4-bit encoding
+K rotary hex
+F ~
+$ENDCMP
+#
 $CMP SW_Encoder
 D Rotary switch, 4-bit encoding
 K rotary hex
