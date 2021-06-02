@@ -1,4 +1,4 @@
-(module donutbrary:D_THT (layer F.Cu) (tedit 60B7D9E6)
+(module donutbrary:D_THT_front (layer F.Cu) (tedit 60B7E7D3)
   (attr smd)
   (fp_text reference D** (at 1.27 0) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
@@ -15,8 +15,8 @@
   (fp_line (start -2.873 -1.2) (end 2.927 -1.2) (layer F.SilkS) (width 0.2))
   (fp_line (start 2.927 -1.2) (end 2.927 1.2) (layer F.SilkS) (width 0.2))
   (fp_line (start 2.927 1.2) (end -2.873 1.2) (layer F.SilkS) (width 0.2))
-  (pad 1 thru_hole roundrect (at -3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask B.SilkS) (roundrect_rratio 0.25))
-  (pad 2 thru_hole circle (at 3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask B.SilkS))
+  (pad 2 thru_hole circle (at 3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole roundrect (at -3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
   (model S:/Kicad/projects/donutbrary.pretty/packages3d/1N4148.step
     (offset (xyz -3.81 0 -0.52578))
     (scale (xyz 1 1 1))
