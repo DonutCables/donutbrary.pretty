@@ -82,12 +82,6 @@ K rotary hex
 F ~
 $ENDCMP
 #
-$CMP SW_Encoder
-D Rotary switch, 4-bit encoding
-K rotary hex
-F ~
-$ENDCMP
-#
 $CMP Teensy_SD
 D PJRC SPI MicroSD Reader
 $ENDCMP
