@@ -3,10 +3,10 @@
   (tags "Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,")
   (attr smd)
   (fp_text reference D** (at 0 -1.905) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_text value D** (at 0 1.905) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_line (start 2.927 1.2) (end -2.873 1.2) (layer F.SilkS) (width 0.2))
   (fp_line (start 2.927 -1.2) (end 2.927 1.2) (layer F.SilkS) (width 0.2))
@@ -25,7 +25,7 @@
   (pad 1 thru_hole roundrect (at -3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
   (pad 1 smd rect (at -1.575 0) (size 1.2 1.2) (layers F.Cu F.Paste F.SilkS F.Mask))
   (pad 2 smd rect (at 1.575 0) (size 1.2 1.2) (layers F.Cu F.Paste F.SilkS F.Mask))
-  (model S:/Kicad/projects/donutbrary.pretty/packages3d/1N4148.step
+  (model ${KIPRJMOD}/donutbrary.pretty/packages3d/1N4148.step
     (offset (xyz -3.81 0 -0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

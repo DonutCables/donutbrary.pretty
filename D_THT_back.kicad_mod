@@ -1,4 +1,6 @@
 (module donutbrary:D_THT_back (layer F.Cu) (tedit 60B7E48A)
+  (descr "Diode, DO-35,  SOD27, Horizontal, RM 10mm")
+  (tags "Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,")
   (attr smd)
   (fp_text reference D** (at 1.905 0) (layer B.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
@@ -17,7 +19,7 @@
   (fp_line (start 2.927 -1.2) (end -2.873 -1.2) (layer B.SilkS) (width 0.2))
   (pad 2 thru_hole circle (at 3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask B.SilkS))
   (pad 1 thru_hole roundrect (at -3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask B.SilkS) (roundrect_rratio 0.25))
-  (model S:/Kicad/projects/donutbrary.pretty/packages3d/1N4148.step
+  (model ${KIPRJMOD}/donutbrary.pretty/packages3d/1N4148.step
     (offset (xyz -3.81 0 -1.44018))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
