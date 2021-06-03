@@ -1,10 +1,10 @@
-(module D_SC79 (layer F.Cu) (tedit 561B69B8)
+(module D_SC79 (layer F.Cu) (tedit 60B94577)
   (descr "SMT, 1608, 0603")
   (tags "SMT, 1608, 0603")
-  (fp_text reference D_SC79 (at 0 -1.8) (layer F.SilkS) hide
+  (fp_text reference D_SC79 (at 0 -1.45) (layer F.Fab) hide
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
-  (fp_text value D*** (at 0.05 1.8) (layer F.SilkS)
+  (fp_text value D** (at 0 1.45) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_line (start -2.05 -0.8) (end -2.05 0.8) (layer F.SilkS) (width 0.16))
