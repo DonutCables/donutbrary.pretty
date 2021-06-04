@@ -36,10 +36,6 @@ $CMP D
 D Diode
 $ENDCMP
 #
-$CMP Elite-Proton-C
-D Elite C/Proton C Dual
-$ENDCMP
-#
 $CMP FE1.1s
 D 2 Port USB Hub
 $ENDCMP
@@ -56,12 +52,12 @@ $CMP MX
 D Pin 1 in Pin 2 out
 $ENDCMP
 #
-$CMP MX_FLIP
-D Pin 2 in Pin 1 out
+$CMP ProMicro_EPC
+D Elite C/Proton C Dual
 $ENDCMP
 #
-$CMP Quad_Pad
-D 4 Pad Connection
+$CMP ProMicro_Normal
+D Normal Pro Micro board
 $ENDCMP
 #
 $CMP R
@@ -79,15 +75,15 @@ F ~
 $ENDCMP
 #
 $CMP THT_1Pad
-D 4 Pad Connection
+D 2 Pad Connection
 $ENDCMP
 #
 $CMP THT_2Pad
-D 4 Pad Connection
+D 2 Pad Connection
 $ENDCMP
 #
 $CMP THT_3Pad
-D 4 Pad Connection
+D 3 Pad Connection
 $ENDCMP
 #
 $CMP THT_4Pad
