@@ -1,10 +1,10 @@
-(module donutbrary:EC11_FSilk locked (layer F.Cu) (tedit 60BAA694)
+(module EC11_FSilk locked (layer F.Cu) (tedit 60BAC7A9)
   (descr "EC11 encoder, F.Silk only")
   (tags "rotary encoder")
-  (fp_text reference SW_E** (at -3.175 -3.81) (layer F.Fab)
+  (fp_text reference %R (at -3.175 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value SW_Enc (at 3.175 3.81) (layer F.Fab)
+  (fp_text value %V (at 3.175 3.81) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 0 -0.5) (end 0 0.5) (layer F.SilkS) (width 0.12))
