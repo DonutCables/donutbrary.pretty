@@ -37,11 +37,11 @@ D Diode
 $ENDCMP
 #
 $CMP FE1.1s
-D 2 Port USB Hub
+D USB2.0 4-port hub
 $ENDCMP
 #
 $CMP FE2.1
-D 4 Port USB Hub
+D USB2.0 7-port hub
 $ENDCMP
 #
 $CMP GND
@@ -62,10 +62,6 @@ $ENDCMP
 #
 $CMP R
 D Resistor
-$ENDCMP
-#
-$CMP RGB_Pad
-D 3 Pin RGB Pad Connection
 $ENDCMP
 #
 $CMP SW_Enc
