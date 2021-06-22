@@ -65,7 +65,13 @@ D Resistor
 $ENDCMP
 #
 $CMP SW_Enc
-D Rotary switch, 4-bit encoding
+D EC11 footprint
+K rotary hex
+F ~
+$ENDCMP
+#
+$CMP SW_Enc_M
+D EC11 footprint, positioned for matrix usage
 K rotary hex
 F ~
 $ENDCMP

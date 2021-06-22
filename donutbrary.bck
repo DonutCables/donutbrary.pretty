@@ -70,6 +70,12 @@ K rotary hex
 F ~
 $ENDCMP
 #
+$CMP SW_Enc_M
+D EC11 footprint, positioned for matrix usage
+K rotary hex
+F ~
+$ENDCMP
+#
 $CMP THT_1Pad
 D 2 Pad Connection
 $ENDCMP
