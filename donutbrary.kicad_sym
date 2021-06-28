@@ -1739,7 +1739,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "THT_5Pad_0_1"
-      (rectangle (start 0 6.35) (end 2.54 -6.35)
+      (rectangle (start 0 6.35) (end 3.81 -6.35)
         (stroke (width 0.1524)) (fill (type none))
       )
     )
