@@ -1,5 +1,5 @@
-(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
-  (symbol "donutbrary:+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "+1V8" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -21,21 +21,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+1V8_1_1"
@@ -45,7 +48,7 @@
       )
     )
   )
-  (symbol "donutbrary:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -67,21 +70,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+3V3_1_1"
@@ -91,7 +97,7 @@
       )
     )
   )
-  (symbol "donutbrary:+5v" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "+5v" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -113,21 +119,24 @@
           (xy -0.762 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 0)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 0.762 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "+5v_1_1"
@@ -137,7 +146,7 @@
       )
     )
   )
-  (symbol "donutbrary:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+  (symbol "C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
     (property "Reference" "C" (id 0) (at 0.635 2.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -162,14 +171,16 @@
           (xy -2.032 -0.762)
           (xy 2.032 -0.762)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 0.762)
           (xy 2.032 0.762)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "C_1_1"
@@ -183,7 +194,7 @@
       )
     )
   )
-  (symbol "donutbrary:Crystal_GND2" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Crystal_GND2" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Y" (id 0) (at 0 5.715 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -204,42 +215,48 @@
     )
     (symbol "Crystal_GND2_0_1"
       (rectangle (start -1.143 2.54) (end 1.143 -2.54)
-        (stroke (width 0.3048)) (fill (type none))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy -1.905 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 -1.27)
           (xy -1.905 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -3.81)
           (xy 0 -3.556)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.905 0)
           (xy 2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.905 1.27)
           (xy 1.905 -1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -248,7 +265,8 @@
           (xy 2.54 -3.556)
           (xy 2.54 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Crystal_GND2_1_1"
@@ -266,7 +284,7 @@
       )
     )
   )
-  (symbol "donutbrary:Crystal_GND23" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Crystal_GND23" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Y" (id 0) (at 3.175 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -287,49 +305,56 @@
     )
     (symbol "Crystal_GND23_0_1"
       (rectangle (start -1.143 2.54) (end 1.143 -2.54)
-        (stroke (width 0.3048)) (fill (type none))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy -2.032 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 -1.27)
           (xy -2.032 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -3.81)
           (xy 0 -3.556)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.556)
           (xy 0 3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.032 -1.27)
           (xy 2.032 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.032 0)
           (xy 2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -338,7 +363,8 @@
           (xy 2.54 -3.556)
           (xy 2.54 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -347,7 +373,8 @@
           (xy 2.54 3.556)
           (xy 2.54 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Crystal_GND23_1_1"
@@ -369,7 +396,7 @@
       )
     )
   )
-  (symbol "donutbrary:Crystal_GND24" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Crystal_GND24" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Y" (id 0) (at 3.175 5.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -390,49 +417,56 @@
     )
     (symbol "Crystal_GND24_0_1"
       (rectangle (start -1.143 2.54) (end 1.143 -2.54)
-        (stroke (width 0.3048)) (fill (type none))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy -2.032 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.032 -1.27)
           (xy -2.032 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 -3.81)
           (xy 0 -3.556)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 0 3.556)
           (xy 0 3.81)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.032 -1.27)
           (xy 2.032 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.032 0)
           (xy 2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -441,7 +475,8 @@
           (xy 2.54 -3.556)
           (xy 2.54 -2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -450,7 +485,8 @@
           (xy 2.54 3.556)
           (xy 2.54 2.286)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Crystal_GND24_1_1"
@@ -472,7 +508,7 @@
       )
     )
   )
-  (symbol "donutbrary:Crystal_NoGND" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "Crystal_NoGND" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "Y" (id 0) (at 0 3.81 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -493,35 +529,40 @@
     )
     (symbol "Crystal_NoGND_0_1"
       (rectangle (start -1.143 2.54) (end 1.143 -2.54)
-        (stroke (width 0.3048)) (fill (type none))
+        (stroke (width 0.3048) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy -1.905 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -1.905 -1.27)
           (xy -1.905 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.905 -1.27)
           (xy 1.905 1.27)
         )
-        (stroke (width 0.508)) (fill (type none))
+        (stroke (width 0.508) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.905 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Crystal_NoGND_1_1"
@@ -535,7 +576,7 @@
       )
     )
   )
-  (symbol "donutbrary:D" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+  (symbol "D" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
     (property "Reference" "D" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -560,14 +601,16 @@
           (xy -1.27 0)
           (xy 1.27 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy 1.27 -1.27)
           (xy 1.27 1.27)
         )
-        (stroke (width 0.2032)) (fill (type none))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -576,19 +619,20 @@
           (xy 1.27 0)
           (xy -1.27 -1.27)
         )
-        (stroke (width 0.2032)) (fill (type none))
-      )
-      (pin passive line (at 3.81 0 180) (length 2.54)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin passive line (at -3.81 0 0) (length 2.54)
         (name "A" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin passive line (at 3.81 0 180) (length 2.54)
+        (name "C" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
     )
   )
-  (symbol "donutbrary:FE1.1s" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "FE1.1s" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 1.27 -3.81 90)
       (effects (font (size 1.524 1.524)))
     )
@@ -606,7 +650,8 @@
     )
     (symbol "FE1.1s_0_1"
       (rectangle (start -7.62 11.43) (end 10.16 -24.13)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "FE1.1s_1_1"
@@ -724,7 +769,7 @@
       )
     )
   )
-  (symbol "donutbrary:FE2.1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "FE2.1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "U" (id 0) (at 3.81 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -742,7 +787,8 @@
     )
     (symbol "FE2.1_0_1"
       (rectangle (start -6.35 19.05) (end 12.7 -50.8)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "FE2.1_1_1"
@@ -940,7 +986,7 @@
       )
     )
   )
-  (symbol "donutbrary:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -966,7 +1012,8 @@
           (xy -1.27 -1.27)
           (xy 0 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "GND_1_1"
@@ -976,7 +1023,7 @@
       )
     )
   )
-  (symbol "donutbrary:MX" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "MX" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "SW" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -997,7 +1044,8 @@
     )
     (symbol "MX_1_1"
       (rectangle (start -4.318 2.54) (end 4.318 2.794)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1006,7 +1054,8 @@
           (xy 0.762 3.556)
           (xy 1.016 2.794)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (pin passive inverted (at -10.16 0 0) (length 7.62)
         (name "~" (effects (font (size 1.27 1.27))))
@@ -1018,7 +1067,7 @@
       )
     )
   )
-  (symbol "donutbrary:Polyfuse_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "Polyfuse_Small" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "F" (id 0) (at 0 -1.905 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1036,14 +1085,16 @@
     )
     (symbol "Polyfuse_Small_0_1"
       (rectangle (start -1.27 -0.508) (end 1.27 0.508)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
           (xy -2.54 0)
           (xy 2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1052,7 +1103,8 @@
           (xy 0.762 1.016)
           (xy 1.27 1.016)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Polyfuse_Small_1_1"
@@ -1066,7 +1118,7 @@
       )
     )
   )
-  (symbol "donutbrary:ProMicro_EPC" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "ProMicro_EPC" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "PM" (id 0) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1095,7 +1147,8 @@
           (xy 12.7 -19.05)
           (xy 12.7 16.51)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1104,7 +1157,8 @@
           (xy 12.7 19.05)
           (xy 12.7 16.51)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1117,7 +1171,8 @@
           (xy 10.16 -21.59)
           (xy 10.16 -19.05)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "ProMicro_EPC_1_1"
@@ -1303,7 +1358,7 @@
       )
     )
   )
-  (symbol "donutbrary:ProMicro_Normal" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "ProMicro_Normal" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "PM" (id 0) (at 1.27 19.05 90)
       (effects (font (size 1.524 1.524)))
     )
@@ -1321,7 +1376,8 @@
     )
     (symbol "ProMicro_Normal_0_1"
       (rectangle (start -10.16 34.29) (end 10.16 3.81)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "ProMicro_Normal_1_1"
@@ -1423,7 +1479,7 @@
       )
     )
   )
-  (symbol "donutbrary:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "R" (id 0) (at 0 2.032 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -1444,7 +1500,8 @@
     )
     (symbol "R_0_1"
       (rectangle (start -2.54 1.27) (end 2.54 -1.27)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "R_1_1"
@@ -1458,7 +1515,7 @@
       )
     )
   )
-  (symbol "donutbrary:SW_Enc" (in_bom yes) (on_board yes)
+  (symbol "SW_Enc" (in_bom yes) (on_board yes)
     (property "Reference" "SW_E" (id 0) (at -7.62 -2.54 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1478,16 +1535,17 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_Enc_0_1"
-      (circle (center 0 0) (radius 4.0132) (stroke (width 0)) (fill (type none)))
       (rectangle (start -6.35 6.35) (end 6.35 -6.35)
-        (stroke (width 0)) (fill (type background))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (polyline
         (pts
           (xy 0 2.54)
           (xy 1.27 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1496,7 +1554,12 @@
           (xy -1.27 1.27)
           (xy 0 2.54)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0) (radius 4.0132)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "SW_Enc_1_1"
@@ -1522,7 +1585,7 @@
       )
     )
   )
-  (symbol "donutbrary:SW_Enc_M" (in_bom yes) (on_board yes)
+  (symbol "SW_Enc_M" (in_bom yes) (on_board yes)
     (property "Reference" "SW_E" (id 0) (at -2.54 7.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
@@ -1542,16 +1605,13 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SW_Enc_M_0_1"
-      (circle (center 0 0) (radius 4.0132) (stroke (width 0)) (fill (type none)))
-      (rectangle (start 6.35 6.35) (end -6.35 -6.35)
-        (stroke (width 0)) (fill (type background))
-      )
       (polyline
         (pts
           (xy 2.54 0)
           (xy 1.27 -1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (polyline
         (pts
@@ -1560,7 +1620,16 @@
           (xy 1.27 1.27)
           (xy 2.54 0)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 0) (radius 4.0132)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (rectangle (start 6.35 6.35) (end -6.35 -6.35)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
     )
     (symbol "SW_Enc_M_1_1"
@@ -1586,7 +1655,7 @@
       )
     )
   )
-  (symbol "donutbrary:THT_1Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "THT_1Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "1P" (id 0) (at 1.27 2.54 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1604,7 +1673,8 @@
     )
     (symbol "THT_1Pad_0_1"
       (rectangle (start 0 1.27) (end 3.81 -1.27)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "THT_1Pad_1_1"
@@ -1614,7 +1684,7 @@
       )
     )
   )
-  (symbol "donutbrary:THT_2Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "THT_2Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "2P" (id 0) (at 1.27 3.81 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1632,7 +1702,8 @@
     )
     (symbol "THT_2Pad_0_1"
       (rectangle (start 0 2.54) (end 3.81 -2.54)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "THT_2Pad_1_1"
@@ -1646,7 +1717,7 @@
       )
     )
   )
-  (symbol "donutbrary:THT_3Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "THT_3Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "3P" (id 0) (at 1.27 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1664,7 +1735,8 @@
     )
     (symbol "THT_3Pad_0_1"
       (rectangle (start 0 3.81) (end 3.81 -3.81)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "THT_3Pad_1_1"
@@ -1682,7 +1754,7 @@
       )
     )
   )
-  (symbol "donutbrary:THT_4Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "THT_4Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "4P" (id 0) (at 1.27 6.35 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1700,7 +1772,8 @@
     )
     (symbol "THT_4Pad_0_1"
       (rectangle (start 0 5.08) (end 3.81 -5.08)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "THT_4Pad_1_1"
@@ -1722,7 +1795,7 @@
       )
     )
   )
-  (symbol "donutbrary:THT_5Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "THT_5Pad" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "5P" (id 0) (at 1.27 7.62 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1739,8 +1812,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "THT_5Pad_0_1"
-      (rectangle (start 0 6.35) (end 2.54 -6.35)
-        (stroke (width 0.1524)) (fill (type none))
+      (rectangle (start 0 6.35) (end 3.81 -6.35)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "THT_5Pad_1_1"
@@ -1766,7 +1840,7 @@
       )
     )
   )
-  (symbol "donutbrary:TRRS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "TRRS" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "T" (id 0) (at 0 -2.54 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1781,16 +1855,20 @@
     )
     (symbol "TRRS_0_1"
       (rectangle (start -5.08 6.35) (end -5.08 -1.27)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (rectangle (start -5.08 6.35) (end 5.08 6.35)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (rectangle (start 5.08 -1.27) (end -5.08 -1.27)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
       (rectangle (start 5.08 6.35) (end 5.08 -1.27)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "TRRS_1_1"
@@ -1812,7 +1890,7 @@
       )
     )
   )
-  (symbol "donutbrary:Teensy++2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Teensy++2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "Teensy" (id 0) (at 0 34.29 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -1827,7 +1905,8 @@
     )
     (symbol "Teensy++2.0_0_1"
       (rectangle (start -12.7 31.75) (end 12.7 -36.83)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Teensy++2.0_1_1"
@@ -2041,7 +2120,7 @@
       )
     )
   )
-  (symbol "donutbrary:Teensy_SD" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "Teensy_SD" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "SD" (id 0) (at 0 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
@@ -2059,7 +2138,8 @@
     )
     (symbol "Teensy_SD_0_1"
       (rectangle (start -10.16 6.35) (end 10.16 -6.35)
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "Teensy_SD_1_1"
@@ -2105,7 +2185,7 @@
       )
     )
   )
-  (symbol "donutbrary:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+  (symbol "VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
     (property "Reference" "#PWR" (id 0) (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2122,13 +2202,17 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "VCC_0_1"
-      (circle (center 0 1.905) (radius 0.635) (stroke (width 0)) (fill (type none)))
       (polyline
         (pts
           (xy 0 0)
           (xy 0 1.27)
         )
-        (stroke (width 0)) (fill (type none))
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 0 1.905) (radius 0.635)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
       )
     )
     (symbol "VCC_1_1"
