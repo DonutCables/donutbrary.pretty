@@ -1,6 +1,6 @@
 (footprint "D_SC79" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 621DEA22)
+  (tedit 6235057C)
   (descr "SMT, 1608, 0603")
   (tags "SMT, 1608, 0603")
   (attr through_hole)
@@ -23,8 +23,8 @@
   (fp_line (start 1.25 0.8) (end 1.75 0.8) (layer "F.SilkS") (width 0.16) (tstamp c5a1761e-3391-4e74-90c9-947fd66e1fc6))
   (fp_line (start -1.85 -0.8) (end -1.85 0.8) (layer "F.SilkS") (width 0.16) (tstamp eaef1172-3351-417c-bfc4-74a598f141cb))
   (fp_line (start -1.8 -0.8) (end -1.8 0.8) (layer "F.SilkS") (width 0.16) (tstamp f6ee98b5-4773-4eeb-a825-33c1705abace))
-  (pad "1" smd rect (at 0.85 0) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e68c5170-03c3-4a20-abd0-ad610c43d035))
-  (pad "2" smd rect (at -0.85 0) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92e8f8c3-0985-4c0d-8e38-92cbbf365409))
+  (pad "1" smd rect (at -0.85 0) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 92e8f8c3-0985-4c0d-8e38-92cbbf365409))
+  (pad "2" smd rect (at 0.85 0) (size 1 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e68c5170-03c3-4a20-abd0-ad610c43d035))
   (model "smd/capacitors/c_0603.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

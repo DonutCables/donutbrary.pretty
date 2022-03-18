@@ -1,6 +1,6 @@
 (footprint "D_THT_back" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 621DEAAD)
+  (tedit 623505F1)
   (descr "Diode, DO-35,  SOD27, Horizontal, RM 10mm")
   (tags "Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,")
   (attr smd)
@@ -21,8 +21,8 @@
   (fp_line (start -2.323 1.2) (end -2.323 -1.2) (layer "B.SilkS") (width 0.2) (tstamp b1dad93c-ba77-40bd-9b75-65e2d6f9b5a1))
   (fp_line (start -2.798 1.2) (end -2.798 -1.2) (layer "B.SilkS") (width 0.2) (tstamp b4180bb0-8dc9-48ec-9931-26e9377a82e1))
   (fp_line (start -2.873 1.2) (end 2.927 1.2) (layer "B.SilkS") (width 0.2) (tstamp c89b3dc0-3882-490a-b628-aad226ceaf7d))
-  (pad "1" thru_hole circle (at 3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask "B.SilkS") (tstamp 9aa4051b-5d8e-420b-bd92-028862775303))
-  (pad "2" thru_hole roundrect (at -3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask "B.SilkS") (roundrect_rratio 0.25) (tstamp 8d6a069f-4023-40e5-b77a-c447eb7c2730))
+  (pad "1" thru_hole roundrect (at -3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask "B.SilkS") (roundrect_rratio 0.25) (tstamp 8d6a069f-4023-40e5-b77a-c447eb7c2730))
+  (pad "2" thru_hole circle (at 3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask "B.SilkS") (tstamp 9aa4051b-5d8e-420b-bd92-028862775303))
   (model "${KIPRJMOD}/donutbrary.pretty/packages3d/1N4148.step"
     (offset (xyz -3.81 0 -1.44018))
     (scale (xyz 1 1 1))
