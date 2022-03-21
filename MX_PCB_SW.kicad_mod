@@ -1,6 +1,6 @@
 (footprint "MX_PCB_SW" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6233A548)
+  (tedit 62351206)
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at 0 3.175) (layer "B.SilkS")
     (effects (font (size 1.27 1.524) (thickness 0.2032)) (justify mirror))
@@ -9,6 +9,10 @@
   (fp_text value "${VALUE}" (at 0 5.08) (layer "F.Fab") hide
     (effects (font (size 1.27 1.524) (thickness 0.2032)))
     (tstamp 6f5da442-842c-4c76-8c33-a2a761fa8743)
+  )
+  (fp_text user "${VALUE}" (at 0 3.048 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp b04b3455-7931-40f4-8903-830f6a90bc33)
   )
   (fp_line (start 9.398 -9.398) (end 9.398 9.398) (layer "Dwgs.User") (width 0.1524) (tstamp 0993bb66-894d-4b7f-97db-4f0b153754c0))
   (fp_line (start 9.398 9.398) (end -9.398 9.398) (layer "Dwgs.User") (width 0.1524) (tstamp 1bfa3ca6-88e6-47bd-baa4-c669b97f7237))

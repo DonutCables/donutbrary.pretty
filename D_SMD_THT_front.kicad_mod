@@ -1,6 +1,6 @@
 (footprint "D_SMD_THT_front" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 623507A6)
+  (tedit 6235140A)
   (descr "Diode, DO-35,  SOD27, Horizontal, RM 10mm")
   (tags "Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 4c8704fa-310a-4c01-8dc1-2b7e2727fea0)
   )
-  (fp_text value "${VALUE}" (at 0 1.905) (layer "F.Fab") hide
+  (fp_text value "${VALUE}" (at 0 1.905) (layer "F.Fab")
     (effects (font (size 0.8 0.8) (thickness 0.15)))
     (tstamp 6742a066-6a5f-4185-90ae-b7fe8c6eda52)
   )
