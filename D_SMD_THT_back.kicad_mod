@@ -1,6 +1,6 @@
 (footprint "D_SMD_THT_back" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62351401)
+  (tedit 624BAA7C)
   (descr "Diode, DO-35,  SOD27, Horizontal, RM 10mm")
   (tags "Diode, DO-35, SOD27, Horizontal, RM 10mm, 1N4148,")
   (attr smd)
@@ -29,7 +29,7 @@
     (solder_mask_margin -999) (tstamp cbc539d2-6a10-4052-9b7a-f10326dcac67))
   (pad "2" thru_hole circle (at 3.9 0) (size 1.6 1.6) (drill 0.7) (layers *.Cu *.Mask "B.SilkS") (tstamp d2de4093-1fc2-4bc1-94b6-4d0fe3426c6f))
   (pad "2" smd rect (at 1.575 0) (size 1.2 1.2) (layers "B.Cu" "B.Paste" "B.SilkS" "B.Mask") (tstamp e47adf3d-9c24-4345-80c9-66679cad107e))
-  (model "S:/Kicad/projects/donutbrary.pretty/packages3d/DO-35.step"
+  (model "${KIPRJMOD}/donutbrary.pretty/packages3d/DO-35.step"
     (offset (xyz -3.81 -0 -1.28778))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
