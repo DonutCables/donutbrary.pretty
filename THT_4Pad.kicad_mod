@@ -1,6 +1,6 @@
 (footprint "THT_4Pad" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 624EAC93)
+  (tedit 624EBA9C)
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at 0 -1.651) (layer "F.SilkS") hide
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
@@ -14,8 +14,8 @@
     (effects (font (size 0.762 0.762) (thickness 0.1524)))
     (tstamp 0611de6d-8e7e-41bd-b82f-7faf8391a0af)
   )
-  (fp_text user "${VALUE}" (at 0 -1.651) (layer "F.SilkS")
-    (effects (font (size 0.762 0.762) (thickness 0.1524)))
+  (fp_text user "${VALUE}" (at -4.445 -1.651) (layer "F.SilkS")
+    (effects (font (size 0.762 0.762) (thickness 0.1524)) (justify left))
     (tstamp 282ceb35-b302-473b-b793-86ebc8a86273)
   )
   (fp_text user "${4PP4}" (at 3.81 1.651) (layer "F.SilkS")
