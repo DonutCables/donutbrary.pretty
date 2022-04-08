@@ -1,6 +1,6 @@
 (footprint "AF_Standoff_M3" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 624C056C)
+  (tedit 6250068C)
   (descr "Pad for Adafruit M3 solderable standoffs")
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at 0 -3.81 unlocked) (layer "B.SilkS") hide
@@ -11,7 +11,8 @@
     (effects (font (size 1.016 1.016) (thickness 0.2032)))
     (tstamp c58960d9-4cac-4036-ad2e-1aef26946dae)
   )
-  (fp_circle (center 0 0) (end 0 -3.556) (layer "B.SilkS") (width 0.15) (fill none) (tstamp 35545c41-de98-4ec0-9b2e-7d246a84d517))
+  (fp_circle (center 0 0) (end 3.556 0) (layer "B.SilkS") (width 0.1524) (fill none) (tstamp 35545c41-de98-4ec0-9b2e-7d246a84d517))
+  (fp_circle (center 0 0) (end 2.032 0) (layer "F.Mask") (width 0.2032) (fill solid) (tstamp 0177ee52-9bf6-4975-8eaf-ac25a7d918f1))
   (pad "" np_thru_hole roundrect (at 0 0) (size 6.2 6.2) (drill 4.25) (layers *.SilkS "B.Cu" "B.Mask") (roundrect_rratio 0.33) (tstamp 14fc535c-cb89-48aa-90fe-76e1fd47f505))
   (model "${KIPRJMOD}/donutbrary.pretty/packages3d/m3_solder.step"
     (offset (xyz 0 -0 -1.7526))
