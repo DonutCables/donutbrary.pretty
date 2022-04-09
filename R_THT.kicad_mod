@@ -1,6 +1,6 @@
 (footprint "R_THT" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 624EB0A8)
+  (tedit 62519D43)
   (descr "Plain THT resistor")
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at 0 1.905) (layer "F.SilkS") hide
@@ -33,8 +33,8 @@
   (fp_line (start -2.794 0) (end -3.01 0) (layer "F.SilkS") (width 0.15) (tstamp d2cc99c4-6357-4738-beb7-35cf1d61f2d7))
   (fp_line (start 3.01 0) (end 2.794 0) (layer "F.SilkS") (width 0.15) (tstamp eefe3b11-9db5-4359-b2f5-c5594c15e292))
   (fp_line (start 2.286 -1.016) (end 2.032 -0.762) (layer "F.SilkS") (width 0.15) (tstamp f86df2ca-0075-41b3-ab2e-a350127980d7))
-  (pad "1" thru_hole circle (at -3.81 0) (size 1.524 1.524) (drill 0.635) (layers *.Cu *.Mask "F.SilkS") (tstamp adc651f8-902d-4ec6-95c5-d1ea8f9b828a))
-  (pad "2" thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.635) (layers *.Cu *.Mask "F.SilkS") (tstamp 36950028-c969-4757-804f-81abcc577ffa))
+  (pad "1" thru_hole circle (at -3.81 0) (size 1.524 1.524) (drill 0.635) (layers *.Cu *.SilkS *.Mask) (tstamp adc651f8-902d-4ec6-95c5-d1ea8f9b828a))
+  (pad "2" thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.635) (layers *.Cu *.SilkS *.Mask) (tstamp 36950028-c969-4757-804f-81abcc577ffa))
   (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.step"
     (offset (xyz -3.81 0 0))
     (scale (xyz 1 1 1))
