@@ -1,6 +1,6 @@
 (footprint "THT_Header" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6251C49A)
+  (tedit 6251D087)
   (descr "For .1 pitch pins, edit to size on pcb")
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at 0 -1.651) (layer "F.SilkS") hide
