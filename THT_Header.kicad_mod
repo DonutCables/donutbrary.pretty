@@ -1,6 +1,6 @@
 (footprint "THT_Header" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6251D087)
+  (tedit 6251D101)
   (descr "For .1 pitch pins, edit to size on pcb")
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at 0 -1.651) (layer "F.SilkS") hide
@@ -83,7 +83,7 @@
   (pad "2" thru_hole circle (at 2.54 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp d250ce07-2cae-4efd-a4fd-02b1bd04a321))
   (pad "3" thru_hole circle (at 5.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp 492caf45-c836-4c55-ac2e-4219c2a3308c))
   (pad "4" thru_hole circle (at 7.62 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp 6ff9a761-b7a5-4cf8-90e4-22a2e91c08a1))
-  (pad "5" thru_hole circle (at 10.08 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp 189cd3fb-5b32-4eae-8fb2-6f69235842d2))
+  (pad "5" thru_hole circle (at 10.16 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp 189cd3fb-5b32-4eae-8fb2-6f69235842d2))
   (pad "6" thru_hole circle (at 12.7 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp a3c554b3-eab3-4645-9075-14ef062ef6c5))
   (pad "7" thru_hole circle (at 15.24 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp db15dec2-e9aa-4788-9a08-8bfa72d20665))
   (pad "8" thru_hole circle (at 17.78 0) (size 1.778 1.778) (drill 1.016) (layers *.Cu *.SilkS *.Mask) (tstamp 53a70198-fbdf-4642-baa6-d8e70c3152d4))
