@@ -1,6 +1,6 @@
 (footprint "Mousebite_Single" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62558837)
+  (tedit 62559DE6)
   (descr "Breakaway mousebites, .5mm on 1mm grid")
   (attr through_hole)
   (fp_text reference "${REFERENCE}" (at -1.190625 0 90) (layer "F.Fab") hide
