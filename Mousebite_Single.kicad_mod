@@ -1,0 +1,15 @@
+(footprint "Mousebite_Single" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62558837)
+  (descr "Breakaway mousebites, .5mm on 1mm grid")
+  (attr through_hole)
+  (fp_text reference "${REFERENCE}" (at -1.190625 0 90) (layer "F.Fab") hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    (tstamp e403215f-5fdc-494c-b9fc-cfd0a7c13deb)
+  )
+  (fp_text value "Mousebite_Single" (at 1.190625 0 90) (layer "F.SilkS") hide
+    (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    (tstamp 406d6727-500c-444b-aff9-70a74e5b095d)
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 0.508 0.508) (drill 0.508) (layers F&B.Cu *.Mask) (tstamp 74529309-d9b0-4db0-8ca6-e3c57040d742))
+)
