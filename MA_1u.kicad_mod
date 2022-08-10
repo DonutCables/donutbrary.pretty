@@ -1,6 +1,6 @@
 (footprint "MA_1u" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 624E75EA)
+  (tedit 62F4353E)
   (descr "MX/Alps hybrid 1u")
   (tags "MX Alps 1u")
   (attr through_hole)
@@ -35,8 +35,8 @@
   (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers F&B.Cu *.SilkS *.Mask) (tstamp 6925d0aa-6a6d-48e8-beb5-c68f11da7a23))
   (pad "" np_thru_hole circle (at -5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers F&B.Cu *.SilkS *.Mask) (tstamp 83f5f58d-c091-4ade-a393-0d823c7f98ea))
   (pad "" np_thru_hole circle (at 0 0) (size 3.9878 3.9878) (drill 3.9878) (layers F&B.Cu *.SilkS *.Mask) (tstamp 8f68e951-9db8-4b52-b55a-6b757d606006))
-  (pad "SW1" thru_hole oval (at -3.405 -3.27 330.95) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.SilkS *.Mask) (tstamp 71857fb6-92ff-4658-8c4b-83f8fa1a49ea))
-  (pad "SW2" thru_hole oval (at 2.52 -4.79 356.1) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.SilkS *.Mask) (tstamp 33e380ea-342b-4d64-ba82-24622d1ef4c9))
+  (pad "1" thru_hole oval (at -3.405 -3.27 330.95) (size 2.5 4.17) (drill oval 1.5 3.17) (layers *.Cu *.SilkS *.Mask) (tstamp 71857fb6-92ff-4658-8c4b-83f8fa1a49ea))
+  (pad "2" thru_hole oval (at 2.52 -4.79 356.1) (size 2.5 3.08) (drill oval 1.5 2.08) (layers *.Cu *.SilkS *.Mask) (tstamp 33e380ea-342b-4d64-ba82-24622d1ef4c9))
   (model "${KIPRJMOD}/donutbrary.pretty/packages3d/mx_generic.step"
     (offset (xyz 0 -0.0762 4.699))
     (scale (xyz 1 1 1))
